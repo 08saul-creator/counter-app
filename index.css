@@ -1,52 +1,90 @@
 html,body{
-    margin:0;
+    margin: 0;
     padding: 0;
-    background-color: aliceblue;
-   color: black;    
-   font-weight: bold;
-  height:  100vh;  
-  
-}
-.main{
-    background: linear-gradient(darkblue,lightblue);
-    display: flex;
-    flex-direction: column; 
-    align-items: center; 
-    font-size: 24px;
-    border: none;
-    border-radius: 2px;
-  
-}
-button{
- 
- background-color: rgb(241, 122, 138);
- color: rgb(3, 3, 3);
- padding: 5px 10px;
- font-size: 14px;
- font-weight: 700;
- outline: none;
- border: none;
- border-radius: 12px;
- width:  250px;
- margin: 30px;
-}
-h1{ margin-bottom: -20px;
+    outline: 0;
+    background: darkslateblue;
+    color: whitesmoke;
+    height: 100vh;
     text-align: center;
-    font-size: 34px;
+    user-select: none;
 }
-#para-el{
-    text-align: center;
-}
-h2{text-align: center;
-font-size: 34px;}
 
 .container{
- max-width: 80%;
- margin: auto;
- text-align: center;    
-  background-color: burlywood;
+  display: flex;
+  gap: 15px;
+justify-content: center;
+margin-top: 10%;}
+
+#score-guest{  
+ width: 250px;
+ height: 100px;
+margin: 0 auto;
+ display: flex;
+ flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  border-radius: 12PX;
   border: none;
-  outline: 0;
-  border-radius: 10px;
+   
 }
-p{font-size: 34px;}
+
+/**/
+#score-home{
+ width: 250px;
+ height: 100px;
+ margin: 0 auto;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ margin-top: 20px;
+ border-radius: 12px;
+ border: none; 
+  
+    
+}
+.counter-plus{
+  width: 50px;
+  height: 45px;
+  margin-top: 5px;
+  padding: 12px;
+ border-radius:5px;
+ border: none;
+}
+.counter-plus:hover{
+  background: darkslateblue;
+  border: solid #fff 2px;
+  color: #fff;
+}
+#score-home{
+ background-color: azure;
+ font-size: 50px;
+ font-weight: bold;
+ margin-top: 15px;
+ padding: 12px;
+ color: black;
+
+}
+#score-home font{
+  box-shadow: 1px 1px 31px rgbrgb(97, 95, 95);
+}
+
+
+#score-guest{
+  background-color: azure;
+  font-size: 50px;
+  font-weight: bold;
+  margin-top: 15px;
+  padding: 12px;    
+  color: black;
+  box-shadow: 1px 1px 21px rgbrgb(97, 95, 95);
+ }
+ .s-el{
+  margin-top: 20%;
+ }
+
+ 
+ 
+
+
+
+
